@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
+  background-color: #FC9000;
   }
-  
 
 .banner {
   background: url(http://i.imgur.com/vdQ3kO9.jpg?1) no-repeat center;
@@ -15,7 +15,16 @@ html, body {
 }
 .banner h1 {
   margin: 0;
-}
+  }
+  
+.post-title {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color: #DDD;
+  text-align: right;
+  background-color: #0D4B7A; 
+  margin-top: 50px;
+  }
+  
 .sidebar {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-size: 1.25em;
@@ -30,12 +39,14 @@ html, body {
   height: 100%;
 }  
   
-.images{
+img{
   margin-top: 40px;
   }
   
-.posttext{
+.text-post{
   margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 25px 40px 25px 40px;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   line-height: 1.5em;
   font-size: 1.25em;

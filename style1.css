@@ -6,15 +6,18 @@ html, body {
 .banner {
   background: url(http://i.imgur.com/vdQ3kO9.jpg?1) no-repeat center;
   height: 263px;
+  background-size: 100% 100%;
 }
   
 .title{
-  position: relative; top: 220px; left: 10px;
+  position: absolute; top: 220px; left: 10px;
   color: #DDD;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 .banner h1 {
   margin: 0;
+  position: relative;
+
   }
   
 .post-title {
@@ -37,14 +40,14 @@ html, body {
 .posts{
   background: #FC9000;
   height: 100%;
-}  
-  
-img{
   margin-top: 40px;
-  }
+}  
+
+.post-thumb img {
+  width: 100%;
+}
   
 .text-post{
-  margin-top: 40px;
   margin-bottom: 40px;
   padding: 25px 40px 25px 40px;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
